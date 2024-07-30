@@ -1,0 +1,30 @@
+.toggle {
+   width: 3.13rem;
+   height: 1.56rem;
+   border-radius: 1.25rem;
+   /* border: 1rem solid #999; */
+   background-color: white;
+   position: fixed;
+   top: .63rem;
+   right: .63rem;
+   z-index: 999;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   max-width: 1440px;
+    margin: auto;
+}
+
+.toggle_icons {
+    width: .9rem;
+    height: .9rem;
+}
+
+.toggle_button {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: #999;
+    position: absolute;
+    cursor: pointer;
+}
