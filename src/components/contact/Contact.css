@@ -1,8 +1,8 @@
 .contact {
     height: auto;
     position: relative;
-    max-width: 1440px;
-    margin: auto;
+    width: 100%;
+    margin: 0 auto;
     margin-top: 3em;
     box-sizing: border-box;
 }
@@ -17,6 +17,8 @@
 .contact_wrapper {
     padding: 3.13rem;
     display: flex;
+    justify-content:space-between ;
+    align-items: center;
 }
 
 .contact_left {

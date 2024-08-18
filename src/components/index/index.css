@@ -6,10 +6,11 @@
 }
 
 .intro {
+  position: relative;
   display: flex;
   height: auto;
-  max-width: 1440px;
-  margin: auto;
+  width: 100%;
+  margin: 0 auto;
   box-sizing: border-box;
 }
 
@@ -115,7 +116,6 @@
   right: 0;
 }
 
-
 @media screen and (max-width: 480px) {
   .intro {
     flex-direction: column;
@@ -142,11 +142,5 @@
 
   .skill_title {
     margin-bottom: 1em;
-  }
-}
-
-@media (min-width: 2560px) {
-  .appContainer {
-    max-width: 1800px; /* or any value suitable for larger screens */
   }
 }

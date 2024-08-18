@@ -2,8 +2,8 @@
   height: auto;
   display: flex;
   align-items: center;
-  max-width: 1440px;
-  margin: auto;
+  width: 100%;
+  margin: 0 auto;
   padding: 3em;
   box-sizing: border-box;
 }
