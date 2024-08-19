@@ -80,6 +80,26 @@
   margin-bottom: 0.63em;
 }
 
+
+@media screen and (max-width: 900px) {
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about_title {
+    text-align: center;
+  }
+
+  .about_content, .about_cert {
+    width: 98%;
+  }
+
+  .about_card {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .about {
     flex-direction: column;
@@ -91,7 +111,8 @@
   }
 
   .about_card {
-    height: 30vh;
+    width: 100%;
+    height: 20vh;
   }
 
   .about_card.big,
@@ -100,7 +121,7 @@
   }
 
   .about_right {
-    padding: 1.5em;
+    width: 100%;
   }
 
   .remove_text {

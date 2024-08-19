@@ -11,3 +11,37 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
+
+
+@media (min-width: 1440px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 2560px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+
+body {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.intro .main_name {
+  font-size: clamp(2rem, 3vw + 1rem, 4rem)
+}
+
+.about_title {
+  font-size: clamp(2.5rem, 4vw + 1rem, 5rem);
+}
+
