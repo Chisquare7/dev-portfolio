@@ -92,7 +92,7 @@
 
 .skill_items {
   height: 3.13rem;
-  font-size: 1.88rem;
+  font-size: 1.25rem;
   font-weight: bold;
   color: #59b256;
   display: flex;
@@ -137,7 +137,7 @@
   }
 
   .skill_items {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .skill_title {

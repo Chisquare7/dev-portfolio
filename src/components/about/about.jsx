@@ -21,7 +21,7 @@ const About = () => {
           small business sites or rich interactive web applications, I enjoy
           building solutions that resonate with users.
         </p>
-        <p className="about_content">
+        <p className="about_content about_second">
           If you are a business seeking a strong web presence or an employer
           looking to hire, feel free to get in touch with me.
         </p>

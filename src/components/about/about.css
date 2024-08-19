@@ -15,7 +15,6 @@
   justify-content: center;
   position: relative;
   height: 100%;
-  margin-top: 3em;
 }
 
 .about_right {
@@ -50,13 +49,15 @@
 }
 
 .about_title {
-  font-size: 3.13rem;
   font-weight: 600;
 }
 
 .about_content {
   font-size: 1.25rem;  
-  margin: 1em 0em;
+}
+
+.about_second {
+  margin-top: .5em;
 }
 
 .about_context {
@@ -64,7 +65,7 @@
 }
 
 .about_cert {
-  margin-top: 3em;
+  margin-top: 1em;
   display: flex;
   align-items: center;
   justify-content: space-between;
